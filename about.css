@@ -1,0 +1,72 @@
+/* About Section Background */
+#about {
+    background-color:darkgoldenrod;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* A4-Style Container */
+  .about-container {
+    background-color: hsl(255, 33%, 98%);
+    width: 794px;           /* A4 width at 96 DPI */
+    min-height: 1123px;     /* A4 height at 96 DPI */
+    padding: 60px 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Headings */
+  .about-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Paragraphs */
+  .about-container p {
+    font-size: 16.5px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Strong emphasis */
+  .about-container strong {
+    color: #222;
+  }
+  
+  /* Optional: Print optimization */
+  @media print {
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .about-container {
+      width: 100%;
+      height: auto;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 20px 30px;
+    }
+  
+    #about {
+      padding: 0;
+      background-color: white;
+    }
+  }
+  .skills-containor,li{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    bottom:-120px;
+    text-align: center;
+  }

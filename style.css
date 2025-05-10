@@ -1,0 +1,140 @@
+#navbar {
+    background-color:aliceblue;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(198, 122, 17, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 120px; /* Space between items */
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.874);
+    font-size: 22px;
+
+}
+
+.image {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; /* Perfect circle */
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -400px; /* Moves the text upward */
+    text-transform: lowercase;
+    left: 10%;
+}
+
+#myh1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    top:-60px;
+    position: relative;
+}
+
+#para1 {
+    margin-top: 10px;
+    font-style: italic;
+    color: #0e0505;
+    top:-50px;
+    position: relative;
+
+}
+
+#para2 {
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    top:-50px;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    height: 100vh;
+  }
+  
+  body::before {
+    content: "";
+    background-image: url('images/portfolioimage.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1; /* Adjust overlay transparency */
+    z-index: -1;
+    filter: brightness(0.9); /* Optional: darken the background */
+  }
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    top: -60px;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(8, 1, 1, 0.984); /* Semi-transparent white */
+    font-size: 16px;
+    color: #f2f0f0;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -2px 5px black;
+ }
+ #mydiv{
+    text-align: center;
+    font-style:italic;
+    top:-60px;
+    position: relative;
+    color: rgb(233, 7, 7);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    right:-60px;
+ }
