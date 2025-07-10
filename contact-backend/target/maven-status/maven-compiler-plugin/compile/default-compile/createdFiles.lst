@@ -1,5 +1,0 @@
-com\ashiq\contact\model\ContactForm.class
-com\ashiq\contact\controller\GlobalExceptionHandler.class
-com\ashiq\contact\ContactApplication.class
-com\ashiq\contact\controller\ContactController.class
-com\ashiq\contact\service\EmailService.class
